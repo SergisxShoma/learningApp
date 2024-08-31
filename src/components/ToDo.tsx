@@ -1,7 +1,4 @@
-
-export const ToDo = () => {
-    return(
-    <div>
-        
-    </div>)
-}
+const ToDo = () => {
+  return <div>TODO</div>;
+};
+export default ToDo;

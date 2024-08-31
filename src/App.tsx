@@ -1,9 +1,12 @@
-import { Provider } from "react-redux";
-import { store } from "./redux/store";
+import { Provider } from 'react-redux';
+import { store } from './redux/store';
+
+import ToDoList from './components/ToDoList/ToDoList';
+
 function App() {
   return (
     <Provider store={store}>
-      <h1>Hello world</h1>
+      <ToDoList />
     </Provider>
   );
 }
