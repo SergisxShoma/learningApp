@@ -8,7 +8,7 @@ import AddToDoBtn from '../../ui/AddToDoBtn';
 const AddToDo = () => {
   const form = useForm();
   const addNewToDo = () => {};
-
+  //TODO добавить логику работу инпута и кнопки добавить
   return (
     <div className={style.container}>
       <FormProvider {...form}>
